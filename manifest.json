@@ -1,0 +1,33 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "type": "widget",
+  "description": "A custom widget for ArcGIS Experience Builder",
+  "author": "ASaltyPeter",
+  "defaultSettings": {
+    "config": {
+      "apiKey": "",
+      "apiUrl": "",
+      "defaultLocation": {
+        "latitude": 0,
+        "longitude": 0
+      }
+    }
+  },
+  "properties": {
+    "supportedSizes": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "hasSettingPage": false
+  },
+  "files": [
+    {
+      "CAG": "../../src/runtime/assets/CAG.json"
+    },
+    {
+      "PDM": "../../src/runtime/assets/PDM.json"
+    }
+  ]
+}
